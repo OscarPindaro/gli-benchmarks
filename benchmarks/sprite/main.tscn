@@ -1,0 +1,11 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/tilemap_packed.png" id="knight_tex"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Knight" type="Sprite2D" parent="."]
+region_enabled = true
+region_rect = Rect2(16, 128, 16, 16)
+texture = ExtResource("knight_tex")
+texture_filter = 0
