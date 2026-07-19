@@ -22,4 +22,5 @@ In the tilemap, the door frames are at
   - open door: (9,0)
   - starting to close (9,1)
   - almost closed (9,2)
-  - closed (9,2), of course if you registere in the animation in the opposite direction, it opens 
+  - closed (9,3),
+of course if you registere in the animation in the opposite direction, it opens 
