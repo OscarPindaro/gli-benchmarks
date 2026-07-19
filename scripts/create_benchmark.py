@@ -11,6 +11,8 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 BENCHMARKS_DIR = REPO_ROOT / "benchmarks"
 
+from _readme_table import upsert_row  # noqa: E402
+
 README_TEMPLATE = """# {title}
 
 <!-- Explain the objective of the benchmark and the expected output. -->
@@ -70,6 +72,7 @@ def main() -> int:
         )
 
     bench_dir = create_benchmark(args.name)
+    upsert_row(args.name, passed="pending", notes="")
     print(f"Created benchmark at {bench_dir}")
     print(f"  - {bench_dir / 'assets'}")
     print(f"  - {bench_dir / 'README.md'}")
