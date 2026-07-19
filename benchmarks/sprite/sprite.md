@@ -4,8 +4,8 @@
 
 ## Assets
 
-<!-- List and describe the assets required for this benchmark. -->
+assets/tilemap_packed.png
 
 ## Implementation
 
-<!-- Describe the objective of the benchmark and the expected implementation. -->
+Create a Sprite2D with the knight texture at index - knight: (8,1) in the tileset provided as asset
