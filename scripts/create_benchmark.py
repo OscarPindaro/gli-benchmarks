@@ -72,7 +72,7 @@ def main() -> int:
         )
 
     bench_dir = create_benchmark(args.name)
-    upsert_row(args.name, passed="pending", notes="")
+    upsert_row(args.name, passed="⏳", notes="")
     print(f"Created benchmark at {bench_dir}")
     print(f"  - {bench_dir / 'assets'}")
     print(f"  - {bench_dir / 'README.md'}")

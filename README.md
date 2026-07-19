@@ -5,7 +5,7 @@ Folder where I put example benchmarks for my agent tools for developing godot sc
 
 | Name | Passed | Notes |
 |------|--------|-------|
-| sprite | pending |  |
+| sprite | ✅ | I had to accept that godot, LLMs and other people index images in a cartesian way (x,y), not in a matrix like way (row,column) |
 
 ## Acknowledgments
 

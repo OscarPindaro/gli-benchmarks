@@ -15,8 +15,8 @@ BENCHMARKS_DIR = REPO_ROOT / "benchmarks"
 from _readme_table import upsert_row  # noqa: E402
 
 STATUS_LABELS = {
-    "pass": "pass",
-    "fail": "fail",
+    "pass": "✅",
+    "fail": "❌",
 }
 
 
