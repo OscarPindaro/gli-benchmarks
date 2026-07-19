@@ -1,0 +1,1 @@
+Folder where I put example benchmarks for my agent tools for developing godot scripts and scenes.
